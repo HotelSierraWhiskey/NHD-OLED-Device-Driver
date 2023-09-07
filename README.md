@@ -1,6 +1,6 @@
-# NHD-1.27-12896ASC3 Device Driver
+# NHD-OLED Device Driver
 
-This is the SPI bitbang driver code for the Newhaven Display 1.27" OLED.
+This is the SPI bitbang driver code for the Newhaven Display 1.27" OLED (NHD-1.27-12896ASC3).
 I've used this code in PIC18F-based projects. The `set_X_PIN` macros have been left untouched - change the pins as required. 
 This driver requires a non-blocking delay routine. 
 
